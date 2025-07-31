@@ -50,12 +50,12 @@ li{
 }
 
 article{
-    height: 500px;
+    height: 600px;
     width: 95px;
     background-color: rgb(241, 171, 171) ;
 }
 
-#bloco_texto{
+#bloco_texto,#lista{
     flex: 0 1 50%;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ article{
     flex: 0 1 10%;
 } 
 
-#foto_marlon{
+#foto_marlon,#fskill{
     flex: 1 0 50%;
     padding: 10px;
 }
@@ -94,13 +94,13 @@ article{
     align-self: center;
 }
 
-#about{
+#about,#skill{
     height: 100px;
     background-color: red;
 }
 
-#about_conteudo{
-    height: 100px;
+#about_conteudo,#skill_conteudo{
+    
     display: flex;
     flex-direction: row;
     background-color: aqua;
@@ -115,4 +115,9 @@ article{
 
 #descricao{
     flex: 1 0 70%;
+}
+
+#rodape_marlon{
+    height: 200px;
+    background-color: aquamarine;
 }
