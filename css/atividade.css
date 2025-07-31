@@ -94,12 +94,12 @@ article{
     align-self: center;
 }
 
-#about,#skill{
+#about,#skill,#work{
     height: 100px;
     background-color: red;
 }
 
-#about_conteudo,#skill_conteudo{
+#about_conteudo,#skill_conteudo,#work_conteudo{
     
     display: flex;
     flex-direction: row;
@@ -116,8 +116,27 @@ article{
 #descricao{
     flex: 1 0 70%;
 }
-
+#lista_skill{
+    flex: 1 0 50%;
+}
+#texto_skill{
+    flex: 0 1 50%;
+}
+#work_conteudo{
+    flex-wrap: wrap;
+}
+#work_s{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.imagem_w{
+    height: 80px;
+    width: 70px;
+    background-color: white;
+}
 #rodape_marlon{
     height: 200px;
     background-color: aquamarine;
+    display: flex;
 }
